@@ -8,6 +8,7 @@ import Contact from "./pages/Contact";
 
 import Notfound from "./pages/Notfound";
 import { Route } from 'react-router-dom';
+import ProductList from "./pages/admin/products/ProductList";
 function App() {
   return (
     <>
@@ -16,6 +17,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/admin/products" element={<ProductList />} />
    
         <Route path="*" element={<Notfound />} />
       </Routes>

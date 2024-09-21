@@ -7,8 +7,8 @@ export function NavBar() {
       <nav className="navbar navbar-expand-lg bg-white border-bottom box-shadow">
         <div className="container">
           <Link className="navbar-brand" to="/">
-            <img src="./icon.png" alt="..." width="30" className="me-2"></img>{" "}
-            Chichi Store
+            <img src="./cart.png" alt="..." width="30" className="me-2"></img>{" "}
+            Mdicullar
           </Link>
           <button
             className="navbar-toggler"
@@ -47,7 +47,7 @@ export function NavBar() {
                 </a>
                 <ul className="dropdown-menu">
                   <li>
-                    <Link className="dropdown-item"to="/products">
+                    <Link className="dropdown-item"to="/admin/products">
                       Products
                     </Link>
                   </li>
@@ -79,8 +79,8 @@ export function Footer() {
     <>
       <footer>
         <div className="text-center p-4 border-top">
-         <img src="./icon.png" alt="..." width="30" className="me-2"/>
-         Chichi Store &copy;
+         <img src="./cart.png" alt="..." width="30" className="me-2"/>
+         Mdicullar &copy;
         </div>
       </footer>
     </>
