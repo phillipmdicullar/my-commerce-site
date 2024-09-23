@@ -52,7 +52,7 @@ function CreateProducts() {
                   <div className='row mb-3'>
                     <label className='col-sm-4 col-form-label'>Image</label>
                     <div className='col-sm-8'>
-                      <textarea className='form-control' type="file" name='image'/>
+                      <input className='form-control' type="file" name='image'/>
                       <span className="text-danger"></span>
                     </div>
                   </div>
