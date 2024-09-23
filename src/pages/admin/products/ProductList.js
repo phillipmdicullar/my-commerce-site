@@ -10,7 +10,7 @@ function ProductList() {
   }, []);
 
   function getProducts() {
-    fetch("http://localhost:4000/products")
+    fetch("http://localhost:5000/products")
       .then(response => {
         if (response.ok) {
           return response.json();
@@ -59,7 +59,7 @@ function ProductList() {
               <td>{product.category || 'N/A'}</td>
               <td>{product.price || 'N/A'}</td>
               <td>
-                <img width="100" src={"http://localhost:4001/images/" + product.imageFilename }/>
+                <img width="100" src={"http://localhost:4000/images/" + product.imageFilename }/>
               </td>
               <td>{product.createdAt.slice(0, 10)}</td>
               <td style={{ width: '10px', whiteSpace: 'nowrap' }}>
